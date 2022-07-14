@@ -1,0 +1,88 @@
+body{
+  justify-content: center;
+  align-items: center;
+  background: rgb(211, 211, 238);
+  box-sizing: border-box;
+}
+
+.container{
+  justify-content: center;
+  
+ 
+}
+p.counter{
+  justify-content: center;
+  color: black solid;
+  font: 1em sans-serif;
+  font-size: 20px;
+}
+
+.add-btn{
+    margin: 10px;
+    margin-top: 60px;
+    margin-left: 30px;
+    width: 100px;
+    height: 35px;
+    border-radius: 25%;
+    background-color:navy ;
+    color: white;
+    font-size: 15px;
+    border: none;
+    justify-content: center;
+    box-shadow: inset 0px 0px 25px 0px rgb(14, 14, 15);
+    transition:  200ms ease-in ,color 200ms ease-in ;
+  }
+
+.minus-btn{
+    margin: 10px;
+    margin-top: 60px;
+    justify-content: center;
+    margin-left: 30px;
+    width: 100px;
+    height: 35px;
+    border-radius: 25%;
+    background-color: navy;
+    color: white;
+    font-size: 15px;
+    box-shadow: inset 0px 0px 25px 0px rgb(14, 14, 15);
+    border: none;
+
+  }
+
+  .reset-btn{
+    margin: 10px;
+    margin-top: 8s0px;
+    margin-left: 30px;
+    width: 100px;
+    height: 35px;
+    border-radius: 25%;
+    background-color: whitesmoke ;
+    color: black;
+    font-size: 15px;
+    border: none;
+    justify-content: center;
+    box-shadow: inset 0px 0px 25px 0px rgb(14, 14, 15);
+    transition:  200ms ease-in ,color 200ms ease-in ;
+  }
+  
+  
+  
+  .add-btn:hover{
+    background: whitesmoke ;
+    color: white;
+
+  }
+  
+  .minus-btn:hover{
+    background: whitesmoke ;
+    color: white;
+
+  }
+  
+  .reset-btn:hover{
+    background: green ;
+    color: white;
+
+  }
+
+  
